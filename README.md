@@ -1,2 +1,2 @@
-# kakao-clone-v2
- Kakao Clone Version 2.0
+# kakao-clone-v1
+ Kakao Clone Version 1.0
