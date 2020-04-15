@@ -1,2 +1,2 @@
-# ka-clone-last
-Created with CodeSandbox
+# kakao-clone-v2
+ Kakao Clone Version 2.0

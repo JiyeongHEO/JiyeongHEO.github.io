@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Find | Kakao Clone</title>
+  </head>
+  <!-- 3번째 화면, 돋보기 -->
+  <body>
+    <!--1) status-bar-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+        <!--clock-->
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <!--clock icon-->
+        <i class="fas fa-volume-mute"></i
+        ><!--volume-mute icon-->
+        <i class="fas fa-wifi"></i
+        ><!--wifi icon-->
+        <span class="status-bar__battery-level">100%</span
+        ><!--battery-level-->
+        <i class="fas fa-battery-full"></i
+        ><!--batterry-full icon-->
+      </div>
+    </div>
+
+    <!--2) header-->
+    <header class="header">
+      <!--hader title-->
+      <div class="header__header-column">
+        <h1 class="header__title">Find</h1>
+      </div>
+      <!--header icon-->
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+          <!--search icon-->
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+          <!--cog icon-->
+        </span>
+      </div>
+    </header>
+
+    <!--3) find-->
+    <main class="find">
+      <header class="find__header">
+        <ul class="find__header-list">
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-qrcode fa-2x"></i>
+              <!---3-1  QR Code-->
+            </span>
+            <span class="header-btn__title">
+              QR Code
+            </span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-user-plus fa-2x"></i>
+              <!---3-2  Add by Contacts -->
+            </span>
+            <span class="header-btn__title">
+              Add by Contacts
+            </span>
+          </li>
+
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-passport fa-2x"></i>
+              <!---3-3  Add by ID-->
+            </span>
+            <span class="header-btn__title">
+              Add by ID
+            </span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="far fa-envelope fa-2x"></i>
+              <!---3-4   Invite-->
+            </span>
+            <span class="header-btn__title">
+              Invite
+            </span>
+          </li>
+        </ul>
+      </header>
+
+      <!--4) Recommended Friends-->
+      <ul class="find__recommended">
+        <h5 class="find__title">
+          Recommended Friends
+        </h5>
+        <li class="find__friend friend friend--lg">
+          <!--friend content-->
+          <div class="friend__column">
+            <img src="images/coders.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Nomad Coders
+              </span>
+            </div>
+          </div>
+          <!--friend add btn-->
+          <div class="friend__column">
+            <div class="friend__add-btn">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <!--5)마지막 navigation-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--6) -->
+    <div class="bigScreen">
+      <span class="bigScreen__text">
+        Please make your screen small or use your mobile device! ♥
+      </span>
+    </div>
+  </body>
+</html>

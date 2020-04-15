@@ -1,0 +1,16 @@
+{
+  "name": "kakao-clone-lastassignment",
+  "version": "1.0.0",
+  "description": "Kakao Clone Version 2.0",
+  "main": "more.html",
+  "scripts": {
+    "start": "parcel more.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
